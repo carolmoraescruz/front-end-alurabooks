@@ -4,7 +4,7 @@
 @import url("topics.css");
 @import url("contact.css");
 @import url("footer.css");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
     --background-color: #EBECEE;
@@ -12,6 +12,7 @@
     --highlight-orange: #EB9B00;
     --degrade-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --main-font: 'Poppins', sans-serif;
+    --logo-font: 'Josefin Sans', sans-serif;
     --title-blue: #002F52;
     --black-font: #000000;
 }

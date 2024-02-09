@@ -31,6 +31,10 @@
     width: 60vw;
 }
 
+.container__button {
+    display: none;
+}
+
 .container__button:checked~.list-menu {
     display: block;
 }
@@ -52,4 +56,49 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__title {
+    display: none;
+}
+
+.header__options {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .header__hamburguer-menu {
+        display: none;
+    }
+    
+    .container__title {
+        font-family: var(--logo-font);
+        font-size: 1.875rem;
+        display: block;
+    }
+
+    .container__title-bold {
+        font-weight: 700;
+    }
+
+    .header__options {
+        display: flex;
+    }
+
+    .options__item {
+        padding: 0 1em;
+        color: var(--black-font);
+        text-transform: uppercase;
+    }
+
+    .options__link {
+        text-decoration: none;
+        color: var(--black-font);
+    }
+
+    .container__image-transparent {
+        display: none;
+    }
+
 }
