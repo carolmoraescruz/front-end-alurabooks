@@ -28,3 +28,23 @@
     font-size: 0.875rem;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topics__title {
+        font-size: 1.5rem;
+    }
+
+    .topics__list {
+        padding-bottom: 1em;
+    }
+
+    .list__item {
+        padding: 0.5em;
+    }
+
+    .list__link {
+        font-size: 1.5rem;
+    }
+
+}
