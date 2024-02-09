@@ -1,0 +1,11 @@
+hr {
+    margin: 0;
+}
+
+.footer {
+    background-color: var(--main-white);
+}
+
+.footer__title {
+    padding: 1em 0 1.5em 1.5em;
+}
