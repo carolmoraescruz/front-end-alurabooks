@@ -21,3 +21,57 @@
 .swiper-button-next {
     display: none;
 }
+
+.card {
+    background: var(--main-white);
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
+    border-radius: 0.625em;
+    margin: 1.5em 1.5em 1em 1.5em;
+    padding: 1em;
+}
+
+.card__description {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+.description__title {
+    color: var(--highlight-orange);
+    font-weight: 700;
+}
+
+.description__book-title {
+    color: var(--title-blue);
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin: 0.5em 0;
+}
+
+.description__text {
+    color: var(--black-font);
+    padding-right: 1.3em;
+}
+
+.card__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons__item {
+    margin: 0.5em;
+}
+
+.buttons__anchor {
+    background-color: var(--highlight-orange);
+    padding: 1em 2.2em;
+    color: var(--main-white);
+    font-weight: 700;
+    text-decoration: none;
+}
