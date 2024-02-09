@@ -15,6 +15,9 @@
     --logo-font: 'Josefin Sans', sans-serif;
     --title-blue: #002F52;
     --black-font: #000000;
+    --footer-title-grey: #858585;
+    --footer-item-grey: #474646;
+    --footer-background-color: #F9F9F9;
 }
 
 body {

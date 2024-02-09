@@ -9,3 +9,46 @@ hr {
 .footer__title {
     padding: 1em 0 1.5em 1.5em;
 }
+
+.footer-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        padding: 3em 0;
+        font-size: 0.875rem;
+        background-color: var(--footer-background-color);
+    }
+
+    .footer__title {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .footer-list__item {
+        display: flex;
+        gap: 0.5em;
+        align-items: center;
+        padding-bottom: 1em;
+    }
+
+    .footer-list__title {
+        color: var(--footer-title-grey);
+        text-transform: uppercase;
+        padding-bottom: 1.5em;
+    }
+
+    .footer-list__link {
+        text-decoration: none;
+        color: var(--footer-item-grey);
+    }
+
+}
