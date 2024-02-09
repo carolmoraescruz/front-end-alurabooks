@@ -101,4 +101,20 @@
         display: none;
     }
 
+    .options__button {
+        display: none;
+    }
+    
+    .options__button:checked~.list-menu {
+        display: block;
+    }
+
+    .list-menu {
+        width: auto;
+    }
+
+    .list-menu__item {
+        padding: 1em 1.5em;
+    }
+
 }
