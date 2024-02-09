@@ -33,3 +33,23 @@
     font-weight: 400;
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .banner {
+        padding: 5em;
+    }
+
+    .banner__title {
+        font-size: 2.25rem;
+    }
+
+    .banner__text {
+        margin: 0.5em 0 1.5em 0;
+    }
+
+    .banner__search {
+        width: 55%;
+    }
+
+}
