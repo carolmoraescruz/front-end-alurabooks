@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/styles.css">
     <title>AluraBooks</title>
 </head>
@@ -54,7 +55,46 @@
         <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__search" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <section class="carousel">
+        <h2 class="carousel__title">Últimos lançamentos</h2>
+        
+        <div class="swiper">
+
+            <div class="swiper-pagination"></div>            
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/books/ApacheKafka.svg" alt="Livro sobre Apache Kafka"></div>
+                <div class="swiper-slide"><img src="assets/books/Arquitetura.svg" alt="Livro sobre Arquitetura"></div>
+                <div class="swiper-slide"><img src="assets/books/Construct2.svg" alt="Livro sobre Construct2"></div>
+                <div class="swiper-slide"><img src="assets/books/Gestão.svg" alt="Livro sobre Gestão"></div>
+                <div class="swiper-slide"><img src="assets/books/Gestão2.svg" alt="Livro sobre Gestão"></div>
+                <div class="swiper-slide"><img src="assets/books/Javascript.svg" alt="Livro sobre Javascript"></div>
+                <div class="swiper-slide"><img src="assets/books/Liderança.svg" alt="Livro sobre Liderança"></div>
+                <div class="swiper-slide"><img src="assets/books/MetricasAgeis.svg" alt="Livro sobre MetricasAgeis"></div>
+                <div class="swiper-slide"><img src="assets/books/Nodejs.svg" alt="Livro sobre Nodejs"></div>
+                <div class="swiper-slide"><img src="assets/books/Portugol.svg" alt="Livro sobre Portugol"></div>
+                <div class="swiper-slide"><img src="assets/books/ReactNative.svg" alt="Livro sobre ReactNative"></div>
+                <div class="swiper-slide"><img src="assets/books/Tuning.svg" alt="Livro sobre Tuning"></div>
+                <div class="swiper-slide"><img src="assets/books/UX.svg" alt="Livro sobre UX"></div>
+            </div>
+        
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+        </div>
+    </section>
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 
 </html>
