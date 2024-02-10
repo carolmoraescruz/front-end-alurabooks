@@ -51,6 +51,10 @@ hr {
         color: var(--footer-item-grey);
     }
 
+    .footer-list__link:hover {
+        color: var(--highlight-orange);
+    }
+
 }
 
 @media screen and (min-width: 1728px) {

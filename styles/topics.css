@@ -47,6 +47,11 @@
         font-size: 1.5rem;
     }
 
+    .list__link:hover {
+        color: var(--highlight-orange);
+        background-color: var(--main-white);
+    }
+
 }
 
 @media screen and (min-width: 1728px) {
